@@ -26,7 +26,7 @@ for i=76    % 1:length(ppts_folders)
 % Batch file
 nrun = 1; % enter the number of runs here
 
-jobfile = {'/home/matlab3/Documents/Study_1_Anna/Batch_files/pleasework_job.m'};
+jobfile = {'/home/matlab3/Documents/Study_1_Anna/Batch_files/preprocess_1_job.m'};
 jobs = repmat(jobfile, 1, nrun);
 inputs = cell(0, nrun);
     for crun = 1:nrun
