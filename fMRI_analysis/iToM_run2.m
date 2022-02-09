@@ -25,7 +25,7 @@ ppts_folders = strcat('/home/matlab3/Documents/Study_1_Anna/MRI_nii/',ppts_list)
 % Batch file
 nrun = 1; % enter the number of runs here
 
-jobfile = {'/home/matlab3/Documents/Study_1_Anna/Batch_files/pleasework_2_job.m'};
+jobfile = {'/home/matlab3/Documents/Study_1_Anna/Batch_files/preprocess_2_job.m'};
 jobs = repmat(jobfile, 1, nrun);
 inputs = cell(0, nrun);
     for crun = 1:nrun
