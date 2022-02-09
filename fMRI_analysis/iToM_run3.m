@@ -27,7 +27,7 @@ disp('iToM_localiser')
 % Batch file
 nrun = 1; % enter the number of runs here
 
-jobfile = {'/home/matlab3/Documents/Study_1_Anna/Batch_files/pleasework_3_job.m'};
+jobfile = {'/home/matlab3/Documents/Study_1_Anna/Batch_files/preprocess_3_job.m'};
 jobs = repmat(jobfile, 1, nrun);
 inputs = cell(0, nrun);
     for crun = 1:nrun
