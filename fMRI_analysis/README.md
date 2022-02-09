@@ -1,7 +1,5 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 DESCRIPTION - 22/03/2017
 AUTHOR: ANNA HUDSON
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Order and description of MATLAB (.m) scripts: 
 
